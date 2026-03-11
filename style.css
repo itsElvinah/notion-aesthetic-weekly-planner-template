@@ -1,0 +1,89 @@
+html
+{
+background: linear-gradient(135deg, #ffd5bd 40%, #fdd4db 60%);
+}
+body
+{
+    font-family: "Quicksand", sans-serif;
+    margin: 10px;
+}
+.logo
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.logo img
+{
+    width: 45px;
+    height: auto;
+}
+
+.haut
+{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    text-align: left;
+}
+
+.pics img
+{
+    border: 4px double rgb(0, 0, 0);
+    width: 500px;
+  max-width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+  .pics img {
+    width: 90%;
+  }
+}
+.shop
+{
+    margin-top: -20px;
+}
+.shop p
+{
+    text-align: left;
+}
+
+.price{
+font-size:22px;
+margin-bottom:25px;
+}
+
+.price span{
+font-size:32px;
+font-weight:bold;
+color:#eb9028;
+}
+
+.btn{
+display:inline-block;
+background:#ff944d;
+color:white;
+padding:14px 40px;
+border-radius:10px;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+background:#ff7057 ;
+}
+.bas h5
+{
+    font-style: italic;
+}
+.bas a
+{
+    padding: 2px;
+    text-decoration: solid;
+    color: rgb(250, 1, 1);
+    text-decoration: underline;
+}
